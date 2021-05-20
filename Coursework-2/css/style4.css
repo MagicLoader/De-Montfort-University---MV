@@ -1,0 +1,43 @@
+/*INCLUDING BACKGROUND IMAGE FOR THE SITE*/
+body {
+  background-image: url("../img/Valorant_Background.jpg");
+}
+
+
+/*POSITIONING AND EDITS FOR THE BOTTOM BUTTON*/
+
+
+.btnval{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 20px;
+
+  cursor: pointer;
+  width: 1839px;
+}
+
+/*Media query big button 600px*/
+@media screen and (max-width: 600px) {
+  .btnval{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 15px;
+
+    cursor: pointer;
+    width: 419px;
+  }
+}
