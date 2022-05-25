@@ -61,3 +61,28 @@ arrowRight.addEventListener('click', function() {
 startSlide();
 
 
+function foodDisplayText1(){
+  document.getElementById("text1").style.display = "block";
+}
+
+function foodDisplayText2(){
+  document.getElementById("text2").style.display = "block";
+}
+
+function foodDisplayText3(){
+  document.getElementById("text3").style.display = "block";
+}
+
+function foodDisplayText4(){
+  document.getElementById("text4").style.display = "block";
+}
+
+function foodDisplayText5(){
+  document.getElementById("text5").style.display = "block";
+}
+
+function foodDisplayText6(){
+  document.getElementById("text6").style.display = "block";
+}
+
+
